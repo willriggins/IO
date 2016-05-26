@@ -43,7 +43,7 @@ public class Main {
                                 q5();
                                 break;
                             default:
-                                System.out.println("Invalid option selected");
+                                System.out.println("Invalid option.");
                                 break;
                     }
                 }
