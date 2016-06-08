@@ -19,7 +19,7 @@ public class Main {
         answers = load(SAVE_FILE);
 
         try {
-            if (!answers.isEmpty()) {
+            if (!answers.isEmpty()) { //try if (!answers == null)
                 while (true) {
                     System.out.printf("\nCurrent Answers:");
                     System.out.printf("\n %s\n\n", answers);
